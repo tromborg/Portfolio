@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://kit.fontawesome.com/b4a6535c69.js" crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<title>Kristian Tromborg - Portfolio</title>
+</head>
+
+<body class="main-container background-image">
+	<div class="top-header">
+		<a href="" class="top-header-title tracking-in-expand">Kristian Tromborg <br>+45 21 25 26 45<br>tromborg999@hotmail.com</br></br></a>
+	</div>
+
+	<section>
+		<div class="welcome-header">
+			<img class="profile-picture fade-in" src="profile-pic.JPG" alt="ProfilePicture" />
+			<h1 class="fade-in">
+				<span class="roll-in-blurred-right text-highlight">*</span> Kristian Tromborg
+				<span class="roll-in-blurred-left text-highlight">*</span>
+			</h1>
+			<p class="slide-in-blurred-left">
+				Here you can browse through my <span class="text-highlight">Portfolio</span> and see the different work
+				I have done
+			</p>
+			<button class="button button1 slide-in-blurred-left"
+				onClick="document.getElementById('About').scrollIntoView({behavior: 'smooth'});">
+				About
+			</button>
+			<button class="button button1 slide-in-blurred-left"
+				onClick="document.getElementById('TechnicalSkills').scrollIntoView({behavior: 'smooth'});">
+				Technical Skills
+			</button>
+			<button class="button button1 slide-in-blurred-left"
+				onClick="document.getElementById('Education').scrollIntoView({  behavior: 'smooth'});">
+				Experience
+			</button>
+			<button class="button button1 slide-in-blurred-left"
+				onClick="document.getElementById('Projects').scrollIntoView({  behavior: 'smooth'});">
+				Projects
+			</button>
+		</div>
+	</section>
+
+	<section class="about-me-section">
+		<div class="about-me-container mb-12" data-aos="zoom-in-left">
+			<div class="about-me-paragraph">
+				<h1 id="About">About Me {</h1>
+				<p>
+					As a programmer, I have gained experience working with a range of programming languages, including Python, Java, Kotlin, and C#, as well as web and app development. In my 9th semester i was an intern in the startup company Vokalo where i worked extensively with both React and React Native.  Beyond programming, I enjoy pursuing my hobbies, such as going to the gym, learning to play the piano, and spending time with friends. I chose programming as my desired career path because I am passionate about using my skills to turn innovative ideas into reality. I am a strong team player who values collaboration, and I am always willing to make compromises that benefit the group's overall goals while remaining confident in advocating for my ideas when necessary.
+					
+					I have completed a <a class="no-dec" href="https://www.en.aau.dk/education/master/medialogy-aal" target="_blank"><span class="text-highlight">Medialogy Master's Degree</span></a>
+					at Aalborg University.
+					<br>
+				</p>
+				<h1>};</h1>
+			</div>
+		</div>
+	</section>
+
+	<section class="technical-skills-section">
+		<h1 id="TechnicalSkills" data-aos="zoom-in-left">Technical Skills</h1>
+		<div class="skill-grid" data-aos="zoom-in-left">
+			<div class="skill-card">
+				<div class="skill-header">React</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">React-Native</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">Python</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">C#</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">SQL</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">HTML, CSS & JS</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">UI/UX</div>
+			</div>
+			<div class="skill-card">
+				<div class="skill-header">Project Management</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section: Timeline -->
+	<section class="py-5 mb-12 ee-container" data-aos="zoom-in-left">
+		<h1 id="Education">Education</h1>
+		<ul class="timeline">
+			<li class="timeline-item mb-5">
+				<h5 class="fs-4">
+					Aalborg University Master's Degree in Medialogy
+				</h5>
+				<h6 class="fs-3">
+					GPA: 9.5
+				</h6>
+				<div class="badge badge-danger badge-outlined">
+					JUNE 2023 - JUNE 2024
+				</div>
+			</li>
+			<li class="timeline-item mb-5">
+				<h5 class="fs-4">
+					Aalborg University Bachelor's Degree in Medialogy
+				</h5>
+				<div class="badge badge-danger badge-outlined">
+					JUNE 2019 - JUNE 2023
+				</div>
+			</li>
+
+		</ul>
+
+		<h1>Work Experience</h1>
+		<ul class="timeline scale-in-center">
+			<li class="timeline-item mb-5">
+				<h5 class="fs-4">
+					Intern at Vokalo (Aarhus)
+				</h5>
+				<div class="badge badge-danger badge-outlined">
+					DECEMBER 2023 - AUGUST 2024
+				</div>
+				<p>
+					At my 5 months spent at Vokalo I was responsible for creating their new mobile and tablet application which is written in React Native.
+					<br>At the same time i also helped maintain their main web application which is created in React.</br>
+				</p>
+			</li>
+		</ul>
+	</section>
+	<!-- Section: Timeline -->
+
+	<section class="projects-section">
+		<h1 id="Projects" data-aos="zoom-in-left">Projects</h1>
+		<div class="grid" data-aos="zoom-in-left">
+			<a class="project-hyperlink" href="https://github.com/dulda280/RateMyDay" target="_blank">
+				<div class="project-card">
+					<div class="grid-header">RateMyDay App</div>
+					<div class="project-content">
+						An application created for mobile use. The current purpose of the app is to let the user rate their day and get insight into their well being. The app is currently in development and is being developed in React Native to work on both Android and iOS.
+					</div>
+					<ul class="flex flex-wrap ul-nl">
+						<li class="tag-badge">React Native</li>
+						<li class="tag-badge">Typescript</li>
+					</ul>
+				</div>
+			</a>
+			<a class="project-hyperlink" href="https://github.com/tromborg/MED10-ICGarbage" target="_blank">
+				<div class="project-card">
+					<div class="grid-header">Web application for extracting images of garbage</div>
+					<div class="project-content">
+						This project was created for my 10th semester Master's project. The project features a website for users to upload images of garbage, whereafter it is sent to a Python script which uses the YOLO-network to extract and draw bounding boxes around the garbage.
+					</div>
+					<ul class="flex flex-wrap ul-nl">
+						<li class="tag-badge">Python</li>
+						<li class="tag-badge">React</li>
+						<li class="tag-badge">JavaScript</li>
+						<li class="tag-badge">TypeScript</li>
+					</ul>
+				</div>
+			</a>
+			<a class="project-hyperlink" href="https://github.com/tromborg/portfolio" target="_blank">
+				<div class="project-card">
+					<div class="grid-header">Portfolio Website</div>
+					<div class="project-content">
+						The portfolio website was also created to showcase html, css & javascript capabilities.
+					</div>
+					<ul class="flex flex-wrap ul-nl">
+						<li class="tag-badge">HTML</li>
+						<li class="tag-badge">CSS</li>
+						<li class="tag-badge">JavaScript</li>
+					</ul>
+				</div>
+			</a>
+			<a class="project-hyperlink" href="https://github.com/tsta19/MED6_Source_Code" target="_blank">
+				<div class="project-card">
+					<div class="grid-header">Movie API Scraper</div>
+					<div class="project-content">
+						A project created in the 6th semester of my Bachelor working in collaboration with Capture One. An attempt at training a neural network to make automatic light adjustments in images.
+					</div>
+					<ul class="flex flex-wrap ul-nl">
+						<li class="tag-badge">Python</li>
+					</ul>
+				</div>
+			</a>
+		</div>
+	</section>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
